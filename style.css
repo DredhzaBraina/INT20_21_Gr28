@@ -157,3 +157,26 @@ footer{
     color: white;
 }
 
+/*about css*/
+
+.importantinfo {
+    padding: 15px;
+    background: cadetblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+aside#photo {
+    float:left;
+    width:50%;
+
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
