@@ -572,3 +572,51 @@ div #text {
 .maldives-explore span{
     font-weight: bold;
 }
+
+.maldives-demographics-table{
+    text-align: left;
+    border-collapse: collapse;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.maldives-demographics-table th,.maldives-demographics-table td{
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.maldives-demographics-table th{
+    background-color: cadetblue;
+    color: #081C15;
+}
+
+.maldives-demographics-table-2{
+    border-collapse: collapse;
+    margin: 20px;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.maldives-demographics-table-2 th{
+    color: #081C15;
+}
+
+.maldives-demographics-table-2 td, .maldives-demographics-table-2 th{
+    padding: 20px 50px;
+    margin: 30px;
+    width: 100px;
+}
+
+.maldives-demographics-table-2 tr:nth-child(even) {
+    background-color: cadetblue;
+}
+
+.maldives-demographics-table-2 tr:hover{
+    transform: scale(1.1);
+}
+
+.maldives-demographics-table-2 caption{
+    font-size: 20px;
+    margin: 10px;
+}
