@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d5dfad-2625-473c-ad7a-e499a1c541b7" name="Changes" comment="a">
+    <list default="true" id="683a33fa-62cb-4684-a8bc-c2a3d93473df" name="Changes" comment="d">
+      <change afterPath="$PROJECT_DIR$/images/111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/444.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/555.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maldives.html" beforeDir="false" afterPath="$PROJECT_DIR$/maldives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +28,6 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="21ELdP4BQeS1Y0KIKrE7aUHNrWb" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,15 +38,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\Desktop\WebStormProjects\INT20_21_Gr28\images" />
+      <recent name="C:\Users\DELL\WebstormProjects\INT20_21_Gr28\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,15 +58,6 @@
       <workItem from="1637586693499" duration="35000" />
       <workItem from="1637692564614" duration="127000" />
       <workItem from="1637692715149" duration="531000" />
-      <workItem from="1637883429051" duration="12000" />
-      <workItem from="1637884577691" duration="731000" />
-      <workItem from="1638049556401" duration="1894000" />
-      <workItem from="1638051869348" duration="217000" />
-      <workItem from="1638052095510" duration="371000" />
-      <workItem from="1638058773858" duration="1818000" />
-      <workItem from="1638063241699" duration="46000" />
-      <workItem from="1638101372785" duration="1308000" />
-      <workItem from="1638103440618" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1637692861393</created>
@@ -87,84 +73,7 @@
       <option name="project" value="LOCAL" />
       <updated>1637852417056</updated>
     </task>
-    <task id="LOCAL-00003" summary="a">
-      <created>1637877630044</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1637877630044</updated>
-    </task>
-    <task id="LOCAL-00004" summary="a">
-      <created>1637878063848</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1637878063848</updated>
-    </task>
-    <task id="LOCAL-00005" summary="a">
-      <created>1637878189492</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1637878189492</updated>
-    </task>
-    <task id="LOCAL-00006" summary="a">
-      <created>1638051198005</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1638051198005</updated>
-    </task>
-    <task id="LOCAL-00007" summary="a">
-      <created>1638051530241</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1638051530241</updated>
-    </task>
-    <task id="LOCAL-00008" summary="a">
-      <created>1638051878298</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1638051878298</updated>
-    </task>
-    <task id="LOCAL-00009" summary="a">
-      <created>1638052100498</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1638052100498</updated>
-    </task>
-    <task id="LOCAL-00010" summary="a">
-      <created>1638060240267</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1638060240267</updated>
-    </task>
-    <task id="LOCAL-00011" summary="a">
-      <created>1638061245132</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1638061245132</updated>
-    </task>
-    <task id="LOCAL-00012" summary="a">
-      <created>1638102113764</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1638102113764</updated>
-    </task>
-    <task id="LOCAL-00013" summary="a">
-      <created>1638102452758</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1638102452758</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,8 +92,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="d" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="d" />
+    <option name="LAST_COMMIT_MESSAGE" value="d" />
   </component>
 </project>
