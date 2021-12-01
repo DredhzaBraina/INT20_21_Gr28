@@ -37,7 +37,6 @@ a {
 header {
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: aqua;
     width: 100%;
     background-image: linear-gradient(darkcyan, rgba(255, 255, 255, 0.10));
 }

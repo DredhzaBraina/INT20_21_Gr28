@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="26d5dfad-2625-473c-ad7a-e499a1c541b7" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/log-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maldives.html" beforeDir="false" afterPath="$PROJECT_DIR$/maldives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roster.html" beforeDir="false" afterPath="$PROJECT_DIR$/roster.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,6 +80,7 @@
       <workItem from="1638205309366" duration="3000" />
       <workItem from="1638299948151" duration="6230000" />
       <workItem from="1638356579029" duration="4705000" />
+      <workItem from="1638372928282" duration="1684000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1637692861393</created>
@@ -218,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638202786905</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="a">
+      <created>1638372939130</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1638372939130</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
