@@ -174,11 +174,6 @@ aside#sidebar {
     margin-top: 10px;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea {
-    width: 90%;
-    padding: 5px;
-}
-
 article#main-col{
     float:left;
     width:65%;
@@ -286,7 +281,7 @@ input[name="r"]{
     height: 300px;
     margin: 10px;
     box-sizing: border-box;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .rosterphoto .infobox .img-infobox {
@@ -326,18 +321,6 @@ input[name="r"]{
     text-align: center;
     padding: 15px;;
     color: white;
-}
-
-.rosterphoto p {
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-#boxes {
-    min-height: 300px;
-    margin-top: 20px;
-
 }
 
 .explore a {
@@ -448,7 +431,6 @@ input[name="r"]{
 }
 
 div #text {
-    float: right;
     width: 100%;
     margin-top: 10px;
     position: static;
