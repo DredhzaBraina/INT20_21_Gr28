@@ -322,8 +322,8 @@ input[name="r"]{
     color: white;
 }
 
-.explore a {
-    text-decoration: none;
+button{
+    cursor: pointer;
 }
 
 .explore {
