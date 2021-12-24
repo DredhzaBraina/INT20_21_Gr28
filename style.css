@@ -37,6 +37,7 @@ a {
 header {
     padding-top: 30px;
     min-height: 70px;
+    border-bottom: aqua;
     width: 100%;
     background-image: linear-gradient(darkcyan, rgba(255, 255, 255, 0.10));
 }
@@ -174,6 +175,11 @@ aside#sidebar {
     margin-top: 10px;
 }
 
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
 article#main-col{
     float:left;
     width:65%;
@@ -185,6 +191,25 @@ article#main-col{
 }
 
  /*Slideshow css*/
+
+#slideTitle{
+    text-align: center;
+    animation: animate .5s infinite;
+    color:lightgray;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transfrom: translateY(0px);
+    }
+}
 
 .slides{
     overflow: hidden;
@@ -285,7 +310,7 @@ input[name="r"]{
     height: 300px;
     margin: 10px;
     box-sizing: border-box;
-    /*display: inline-block;*/
+    display: inline-block;
 }
 
 .rosterphoto .infobox .img-infobox {
@@ -327,8 +352,84 @@ input[name="r"]{
     color: white;
 }
 
-button{
-    cursor: pointer;
+.rosterphoto p {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#boxes {
+    min-height: 300px;
+    margin-top: 20px;
+
+}
+
+.rosterphoto {
+    min-height: 500px;
+    display: flex;
+    margin: 70px auto 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rosterphoto .infobox {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.rosterphoto .infobox .img-infobox {
+    position: relative;
+    overflow: hidden;
+}
+
+.rosterphoto .infobox .img-infobox img {
+    max-width: 100%;
+    transition: transform 1s;
+    opacity: 1;
+    border-radius: 50px;
+}
+
+.rosterphoto .infobox:hover .img-infobox img {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.rosterphoto .infobox .textt {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    transform: scale(0);
+    transition: transform .5s;
+}
+
+.rosterphoto .infobox:hover .textt {
+    transform: scale(1);
+}
+
+.rosterphoto .infobox .textt .content {
+
+    top: 20%;
+    text-align: center;
+    padding: 15px;;
+    color: white;
+}
+
+.rosterphoto p {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.explore a {
+    text-decoration: none;
 }
 
 .explore {
@@ -404,6 +505,7 @@ button{
     text-align: center;
 }
 
+
 .maldives-table {
     border-collapse: collapse;
     background-color: cadetblue;
@@ -435,6 +537,7 @@ button{
 }
 
 div #text {
+    float: right;
     width: 100%;
     margin-top: 10px;
     position: static;
