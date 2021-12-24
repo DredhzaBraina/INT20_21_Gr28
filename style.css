@@ -94,6 +94,7 @@ header a:hover, a:visited {
     text-align: center;
     background-size: cover;
     border-bottom: aqua 3px solid;
+    background-origin: border-box ;
 }
 
 #showcase h1 {
@@ -348,6 +349,7 @@ button{
 
 #maldives-background {
     background-image: linear-gradient(rgba(0, 139, 139, 0.00), rgba(0, 139, 139, 0.20), rgba(0, 139, 139, 1)), url("images/maldives-background.jpg");
+    background-origin: border-box ;
     background-attachment: fixed;
     min-height: 650px;
     text-align: center;
