@@ -14,6 +14,11 @@ body {
     overflow: hidden;
 }
 
+.container h1 {
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
 ul {
     margin: 0;
     padding: 0;
