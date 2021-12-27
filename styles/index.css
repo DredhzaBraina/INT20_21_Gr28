@@ -269,10 +269,7 @@ label.radio:after {
 input[type=radio]:checked + label:after {
     opacity: 1;
 }
-/*.flax {*/
-/*    display:flex;*/
-/*    justify-content:space-around;*/
-/*}*/
+
 
 .btn-block {
     margin-top: 10px;
