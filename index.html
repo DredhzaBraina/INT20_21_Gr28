@@ -117,7 +117,7 @@
 
 <div id="hide" style="display: none">
     <div class="container" style="color: #081C15">
-        <form action="/">
+        <form>
             <svg width="100%" height="100">
                 <rect x="20" y="20" width="100%" height="100%" style="fill:darkcyan">
                     <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="5s"
@@ -131,7 +131,7 @@
                 </div>
                 <div class="item">
                     <label for="eaddress">Email Address<span>*</span></label>
-                    <input id="eaddress" type="text" name="eaddress" required/>
+                    <input id="eaddress" type="email" name="eaddress" required/>
                 </div>
                 <div class="item">
                     <label for="phone">Phone<span>*</span></label>
@@ -152,6 +152,7 @@
                 <div class="item">
                     <label for="zip">Zip<span>*</span></label>
                     <input id="zip" type="text" name="zip" required/>
+                    <p id="p1" </p>
                 </div>
             </div>
             <div class="question">
@@ -222,7 +223,7 @@
                 <textarea id="visit" rows="3"></textarea>
             </div>
             <div class="btn-block">
-                <button type="submit" class="submit-btn" href="/">Submit</button>
+                <button type="button" class="submit-btn" href="#" onclick="myFunction()" >Submit</button>
             </div>
             <svg width="200px" height="200" >
                 <polygon points="100,10 40,198 190,78 10,78 160,198" style="stroke: aqua; fill: transparent"/>
@@ -232,6 +233,7 @@
 </div>
 
 <script src="canvas.js"></script>
+<script src="tryandcatch.js"></script>
 <footer>
     <div class="icons">
         <a href="https://www.facebook.com/Islands/" target="_blank"><i class="fa fa-facebook"></i></a>
