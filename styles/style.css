@@ -735,7 +735,7 @@ button:hover {
     position: relative;
     z-index: 1;
     max-width: 360px;
-    margin: 0 auot 100px;
+    margin: 0 auto 100px;
     padding: 45px;
     text-align: center;
     color: white;
@@ -747,7 +747,7 @@ button:hover {
 }
 .form input{
     font-family: "Roboto", sans-serif;
-    outline: 1;
+    outline: 1px;
     background: #f2f2f2;
     width: 100%;
     border: 0;
@@ -791,7 +791,7 @@ button:hover {
     margin: 10px;
     width: 250px;
     font-size: 18px;
-    columns: #c62828;
+    /*columns: #c62828;*/
     background: rgba(266, 0, 0, 0.1);
     text-align: center;
     padding: 4px 4px;
