@@ -434,6 +434,5 @@ input[type=radio]:checked + label:after {
     cursor: pointer;
 }
 .submit-btn:hover {
-    background:  cadetblue;
+    background: cadetblue;
 }
-

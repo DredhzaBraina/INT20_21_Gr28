@@ -7,6 +7,12 @@ body {
 }
 
 /* Global */
+/*fontface*/
+@font-face {
+    font-family:Pushster;
+    src: url("/fonts/Pushster-Regular.ttf");
+}
+
 
 .container {
     width: 80%;
