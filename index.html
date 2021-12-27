@@ -14,6 +14,7 @@
         h3 {
             color: aqua
         }
+
     </style>
 
     <script>
@@ -79,8 +80,17 @@
         </div>
     </div>
 </section>
-
-
+<hr>
+<!--drag and drop-->
+<div class="container">
+    <div style="display: flex; justify-content: center" >
+        <p>Have you ever been in a Island? <br> If yes, please drag the checkmark and drop into the box.</p>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <br>
+        <img id="drag1" src="images/checkmark.png" draggable="true" ondragstart="drag(event)" width="50" height="50">
+    </div>
+</div>
+<hr>
 <h4 style="font-size: 30px;text-align: center">Team</h4>
 <div class="image-container_a">
     <div class="image_a" onmouseover="fetch_info(0)"><img src="images/bitmoji-a.jpg"></div>
@@ -223,9 +233,9 @@
                 <textarea id="visit" rows="3"></textarea>
             </div>
             <div class="btn-block">
-                <button type="button" class="submit-btn" href="#" onclick="myFunction()" >Submit</button>
+                <button type="button" class="submit-btn" href="#" onclick="myFunction()">Submit</button>
             </div>
-            <svg width="200px" height="200" >
+            <svg width="200px" height="200">
                 <polygon points="100,10 40,198 190,78 10,78 160,198" style="stroke: aqua; fill: transparent"/>
             </svg>
         </form>
@@ -234,6 +244,7 @@
 
 <script src="canvas.js"></script>
 <script src="tryandcatch.js"></script>
+<script src="draganddrop.js"></script>
 <footer>
     <div class="icons">
         <a href="https://www.facebook.com/Islands/" target="_blank"><i class="fa fa-facebook"></i></a>
