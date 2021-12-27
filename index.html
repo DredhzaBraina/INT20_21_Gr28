@@ -10,7 +10,10 @@
     <link rel="icon" href="./images/beach-29046.png" type="image/png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
-        h3 {color:aqua}
+
+        h3 {
+            color: aqua
+        }
     </style>
 </head>
 
@@ -35,8 +38,11 @@
 
 <section id="showcase">
     <div class="container">
-        <h1>Just some beautiful places where we all want to be at least once.</h1>
-        <p><strong>Here you can see some informations about some of the most famous islands around the world.</strong></p>
+        <div class="background-image-text1">
+            <h1>Just some beautiful places where we all want to be at least once.</h1>
+            <p><strong>Here you can see some informations about some of the most famous islands around the
+                world.</strong></p>
+        </div>
     </div>
 </section>
 
@@ -61,6 +67,36 @@
     </div>
 </section>
 
+
+<h4 style="font-size: 30px;text-align: center">Team</h4>
+<div class="image-container_a">
+    <div class="image_a" onmouseover="fetch_info(0)"><img src="images/bitmoji-a.jpg"></div>
+    <div class="image_a" onmouseover="fetch_info(1)"><img src="images/bitmoji-d.jpg"></div>
+</div>
+
+<div class="info-container_a">
+    <img class="profile_a" id="profile_a" src="images/bitmoji1-a.jpg">
+    <div class="info_a">
+        <h1 class="name_a" id="name_a">Aulona Limani</h1>
+        <h3 class="status_a" id="status_a">Founder </h3>
+        <p class="about_a" id="about_a">Prishtin&euml;/Kosov&euml</p>
+    </div>
+</div>
+<script>
+    function fetch_info(i) {
+        let profiles_a = ["images/bitmoji1-a.jpg", "images/bitmoji1-d.jpg"];
+        let name_a = ['Aulona Limani', 'Dredhza Braina'];
+        let status_a = ["Founder ", "Founder "];
+        let about_a = ["Prishtin&euml;/Kosov&euml;", "Prishtin&euml;/Kosov&euml;"];
+
+        document.getElementById("profile_a").src = profiles_a[i];
+        document.getElementById("name_a").innerHTML = name_a[i];
+        document.getElementById("status_a").innerHTML = status_a[i];
+        document.getElementById("about_a").innerHTML = about_a[i];
+    }
+</script>
+
+
 <footer>
     <div class="icons">
         <a href="https://www.facebook.com/Islands/" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -70,7 +106,7 @@
                 class="fa fa-youtube"></i></a>
     </div>
     <br>
-    <a href = "mailto: island.organization@gmail.com ">Contact us</a>
+    <a href="mailto: island.organization@gmail.com ">Contact us</a>
     <address>ISLANDS Organization, Copyright &copy; 2021</address>
 </footer>
 </body>
