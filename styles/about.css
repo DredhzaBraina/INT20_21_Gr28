@@ -105,3 +105,70 @@ input[name="r"]{
 #r5:checked ~ .s1{
     margin-left: -80%;
 }
+
+
+.mySlides {
+    display: none;
+    height: 650px;
+}
+
+.mySlides img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mySlides:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 139, 139, 0.00), rgba(0, 139, 139, 0.20), rgba(0, 139, 139, 1));
+    z-index: 2;
+    top: 0;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.text {
+    font-size: 100px;
+    position: absolute;
+    top:40%;
+    left:50px;
+    text-align: center;
+    z-index: 3;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: darkcyan;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 10px;
+}
+
+.dot {
+    background-color: transparent;
+}
+
+.active {
+    background-color: transparent;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
