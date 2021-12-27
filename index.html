@@ -15,6 +15,17 @@
             color: aqua
         }
     </style>
+    <script>
+        function Hide() {
+            var x = document.getElementById("hide");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
 </head>
 
 
@@ -96,6 +107,126 @@
     }
 </script>
 
+
+<div class="container">
+    <button onclick="Hide()" class="hideBtn" style="margin-left: 50px">If you want to be in our team, Click here
+    </button>
+</div>
+
+<div id="hide" style="display: none">
+    <div class="container" style="color: #081C15">
+        <form action="/">
+            <svg width="100%" height="100">
+                <rect x="20" y="20" width="100%" height="100%" style="fill:darkcyan">
+                    <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="5s"
+                             repeatCount="indefinite"/>
+                </rect>
+            </svg>
+            <div class="colums">
+                <div class="item">
+                    <label for="name">Name<span>*</span></label>
+                    <input id="name" type="text" name="name" required/>
+                </div>
+                <div class="item">
+                    <label for="eaddress">Email Address<span>*</span></label>
+                    <input id="eaddress" type="text" name="eaddress" required/>
+                </div>
+                <div class="item">
+                    <label for="phone">Phone<span>*</span></label>
+                    <input id="phone" type="tel" name="phone" required/>
+                </div>
+                <div class="item">
+                    <label for="street">Street<span>*</span></label>
+                    <input id="street" type="text" name="street" required/>
+                </div>
+                <div class="item">
+                    <label for="city">City<span>*</span></label>
+                    <input id="city" type="text" name="city" required/>
+                </div>
+                <div class="item">
+                    <label for="state">State<span>*</span></label>
+                    <input id="state" type="text" name="state" required/>
+                </div>
+                <div class="item">
+                    <label for="zip">Zip<span>*</span></label>
+                    <input id="zip" type="text" name="zip" required/>
+                </div>
+            </div>
+            <div class="question">
+                <label>Include my contact information on lists distributed to other attendees.</label>
+                <div class="question-answer">
+                    <div>
+                        <input type="radio" value="none" id="radio_1" name="info"/>
+                        <label for="radio_1" class="radio"><span>Yes</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_2" name="info"/>
+                        <label for="radio_2" class="radio"><span>No</span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <label for="favorite">Islands you Like to Visit</label>
+                <input list="favorites" name="favorite" id="favorite">
+                <datalist id="favorites">
+                    <option value="Maldives">Maldives</option>
+                    <option value="Bora Bora">Bora Bora</option>
+                    <option value="Palwan">Palwan</option>
+                    <option value="Seychelles">Seychelles</option>
+                    <option value="Santorini">Santorini</option>
+                    <option value="The Cook Island">The Cook Island</option>
+                    <option value="Bali">Bali</option>
+                    <option value="The Dalmatian">The Dalmatian</option>
+                </datalist>
+            </div>
+            <div class="question">
+                <label>Days Attending </label>
+                <div class="question-answer">
+                    <div>
+                        <input type="radio" value="none" id="radio_3" name="day"/>
+                        <label for="radio_3" class="radio"><span>Sunday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_4" name="day"/>
+                        <label for="radio_4" class="radio"><span>Monday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_5" name="day"/>
+                        <label for="radio_5" class="radio"><span>Tuesday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_6" name="day"/>
+                        <label for="radio_6" class="radio"><span>Wednesday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_7" name="day"/>
+                        <label for="radio_7" class="radio"><span>Thursday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_8" name="day"/>
+                        <label for="radio_8" class="radio"><span>Friday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_9" name="day"/>
+                        <label for="radio_9" class="radio"><span>Saturday</span></label>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="item">
+                <label for="visit">Special Requirements</label>
+                <textarea id="visit" rows="3"></textarea>
+            </div>
+            <div class="btn-block">
+                <button type="submit" class="submit-btn" href="/">Submit</button>
+            </div>
+            <svg width="200px" height="200" >
+                <polygon points="100,10 40,198 190,78 10,78 160,198" style="stroke: aqua; fill: transparent"/>
+            </svg>
+        </form>
+    </div>
+</div>
 
 <footer>
     <div class="icons">
