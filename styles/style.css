@@ -1,0 +1,801 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: darkcyan;
+    color: white;
+}
+
+/* Global */
+/*fontface*/
+@font-face {
+    font-family:Pushster;
+    src: url("/fonts/Pushster-Regular.ttf");
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: gray;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+a {
+    color: white;
+}
+
+/* Header **/
+
+header {
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: aqua;
+    width: 100%;
+    background-image: linear-gradient(darkcyan, rgba(255, 255, 255, 0.10));
+}
+
+header img {
+    width: 40px;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+    display: inline;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .current a {
+    color: aqua;
+    font-weight: bold;
+}
+
+header a:hover, a:visited {
+    color: white;
+    font-weight: bold;
+}
+
+
+.loginBtn {
+    padding: 2px 10px;
+    border: 0;
+    cursor: pointer;
+}
+/*!* footer *!*/
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: aqua 1px solid;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.10), darkcyan);
+}
+
+.icons {
+    margin: 15px 23px;
+    display: inline;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.icons a {
+    color: aqua;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.icons a:hover {
+    color: white;
+}
+
+
+/*!*about css*!*/
+
+/*.importantinfo {*/
+/*    padding: 15px;*/
+/*    background: cadetblue;*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    outline: 2px solid aqua ;*/
+/*}*/
+
+/*aside#sidebar {*/
+/*    float: right;*/
+/*    width: 30%;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*aside#sidebar .quote input, aside#sidebar .quote textarea {*/
+/*    width: 90%;*/
+/*    padding: 5px;*/
+/*}*/
+
+/*article#main-col{*/
+/*    float:left;*/
+/*    width:65%;*/
+/*}*/
+
+/*#borderpng{*/
+/*    border: 20px solid transparent;*/
+/*    border-image: url("images/beach-29046.png") ;*/
+/*}*/
+
+/* !*Slideshow css*!*/
+
+/*#slideTitle{*/
+/*    text-align: center;*/
+/*    animation: animate .5s infinite;*/
+/*    color:lightgray;*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*}*/
+
+/*@keyframes animate{*/
+/*    0%{*/
+/*        transform: translateY(0px);*/
+/*    }*/
+/*    50%{*/
+/*        transform: translateY(-20px);*/
+/*    }*/
+/*    100%{*/
+/*        transfrom: translateY(0px);*/
+/*    }*/
+/*}*/
+
+/*.slides{*/
+/*    overflow: hidden;*/
+/*    display: flex;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.navigation{*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%);*/
+/*    display: flex;*/
+/*}*/
+/*.bar{*/
+/*    width: 50px;*/
+/*    height: 10px;*/
+/*    border: 2px solid #fff;*/
+/*    margin: 6px;*/
+/*    cursor: pointer;*/
+/*    transition: 0.4s;*/
+/*}*/
+/*.bar:hover{*/
+/*    background: #fff;*/
+/*}*/
+
+/*input[name="r"]{*/
+/*    position: absolute;*/
+/*    visibility: hidden;*/
+/*}*/
+
+/*.slides{*/
+/*    width: 500%;*/
+/*    height: 100%;*/
+/*    display: flex;*/
+/*}*/
+
+/*.slide{*/
+/*    width: 20%;*/
+/*    transition: 0.6s;*/
+/*}*/
+/*.slide img{*/
+/*    width: 70%;*/
+/*    height: 600px;*/
+/*}*/
+
+/*#r1:checked ~ .s1{*/
+/*    margin-left: 0;*/
+/*}*/
+/*#r2:checked ~ .s1{*/
+/*    margin-left: -20%;*/
+/*}*/
+/*#r3:checked ~ .s1{*/
+/*    margin-left: -40%;*/
+/*}*/
+/*#r4:checked ~ .s1{*/
+/*    margin-left: -60%;*/
+/*}*/
+/*#r5:checked ~ .s1{*/
+/*    margin-left: -80%;*/
+/*}*/
+
+/*roster css*/
+
+
+/*#newsletter {*/
+/*    padding: 15px;*/
+/*    color: #ffffff;*/
+/*    background: cadetblue;*/
+/*}*/
+
+/*#newsletter h1 {*/
+/*    float: left;*/
+/*}*/
+
+/*#newsletter form {*/
+/*    float: right;*/
+/*    margin-top: 15px;*/
+/*}*/
+
+/*#newsletter input[type="email"] {*/
+/*    padding: 4px;*/
+/*    height: 25px;*/
+/*    width: 250px;*/
+/*}*/
+
+/*.rosterphoto {*/
+/*    min-height: 500px;*/
+/*    display: flex;*/
+/*    margin: 70px auto 0;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.rosterphoto .infobox {*/
+/*    position: relative;*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    margin: 10px;*/
+/*    box-sizing: border-box;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.rosterphoto .infobox .img-infobox {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.rosterphoto .infobox .img-infobox img {*/
+/*    max-width: 100%;*/
+/*    transition: transform 1s;*/
+/*    opacity: 1;*/
+/*    border-radius: 50px;*/
+/*}*/
+
+/*.rosterphoto .infobox:hover .img-infobox img {*/
+/*    transform: scale(1.2);*/
+/*    opacity: 0.5;*/
+/*}*/
+
+/*.rosterphoto .infobox .textt {*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    left: 10px;*/
+/*    bottom: 10px;*/
+/*    right: 10px;*/
+/*    transform: scale(0);*/
+/*    transition: transform .5s;*/
+/*}*/
+
+/*.rosterphoto .infobox:hover .textt {*/
+/*    transform: scale(1);*/
+/*}*/
+
+/*.rosterphoto .infobox .textt .content {*/
+
+/*    top: 20%;*/
+/*    text-align: center;*/
+/*    padding: 15px;;*/
+/*    color: white;*/
+/*}*/
+
+/*.rosterphoto p {*/
+/*    text-transform: uppercase;*/
+/*    font-size: 15px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+
+/*#boxes {*/
+/*    min-height: 300px;*/
+/*    margin-top: 20px;*/
+
+/*}*/
+
+/*.rosterphoto {*/
+/*    min-height: 500px;*/
+/*    display: flex;*/
+/*    margin: 70px auto 0;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.rosterphoto .infobox {*/
+/*    position: relative;*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    margin: 10px;*/
+/*    box-sizing: border-box;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.rosterphoto .infobox .img-infobox {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.rosterphoto .infobox .img-infobox img {*/
+/*    max-width: 100%;*/
+/*    transition: transform 1s;*/
+/*    opacity: 1;*/
+/*    border-radius: 50px;*/
+/*}*/
+
+/*.rosterphoto .infobox:hover .img-infobox img {*/
+/*    transform: scale(1.2);*/
+/*    opacity: 0.5;*/
+/*}*/
+
+/*.rosterphoto .infobox .textt {*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    left: 10px;*/
+/*    bottom: 10px;*/
+/*    right: 10px;*/
+/*    transform: scale(0);*/
+/*    transition: transform .5s;*/
+/*}*/
+
+/*.rosterphoto .infobox:hover .textt {*/
+/*    transform: scale(1);*/
+/*}*/
+
+/*.rosterphoto .infobox .textt .content {*/
+
+/*    top: 20%;*/
+/*    text-align: center;*/
+/*    padding: 15px;;*/
+/*    color: white;*/
+/*}*/
+
+/*.rosterphoto p {*/
+/*    text-transform: uppercase;*/
+/*    font-size: 15px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.explore a {*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.explore {*/
+/*    background-color: darkcyan;*/
+/*    border: white solid 1px;*/
+/*    width: 80px;*/
+/*    height: 30px;*/
+/*    border-radius: 50px;*/
+/*}*/
+
+/*.explore:hover {*/
+/*    background-color: rgba(0, 139, 139, 0.5);*/
+/*    transition: 0.5s;*/
+/*}*/
+
+/*!*Maldives Css*!*/
+
+/*#maldives-background {*/
+/*    background-image: linear-gradient(rgba(0, 139, 139, 0.00), rgba(0, 139, 139, 0.20), rgba(0, 139, 139, 1)), url("images/maldives-background.jpg");*/
+/*    background-origin: border-box ;*/
+/*    background-attachment: fixed;*/
+/*    min-height: 650px;*/
+/*    text-align: center;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    position: relative;*/
+/*}*/
+
+/*.background-image-text {*/
+/*    position: absolute;*/
+/*    top: 30%;*/
+/*    left: 10%;*/
+/*}*/
+
+/*.background-image-text h1 {*/
+/*    font-size: 60px;*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*    color: darkcyan;*/
+/*    text-shadow: 2px 2px 2px black;*/
+/*}*/
+
+/*.background-image-text p {*/
+/*    font-size: 30px;*/
+/*    text-transform: uppercase;*/
+/*    text-align: left;*/
+/*    letter-spacing: 5px;*/
+/*    text-shadow: 2px 2px 2px black;*/
+/*}*/
+
+/*.flex-container {*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*    width: 100%;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.flex-container .maldives-text {*/
+/*    width: 75%;*/
+/*    margin-left: 25px;*/
+/*    text-align: left;*/
+/*    line-height: 25px;*/
+/*    margin-right: 25px;*/
+/*}*/
+
+/*.flex-container .maldives-table-div {*/
+/*    width: 400px;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+
+/*.flex-container .maldives-table-div .maldives-table {*/
+/*    width: 100%;*/
+/*    margin: 10px;*/
+/*    text-align: center;*/
+/*}*/
+
+
+/*.maldives-table {*/
+/*    border-collapse: collapse;*/
+/*    background-color: cadetblue;*/
+/*    border-radius: 50px;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*}*/
+
+/*.maldives-table td, th {*/
+/*    border-bottom: solid 5px transparent;*/
+/*    text-align: left;*/
+/*    margin: 10px;*/
+/*    padding: 12px;*/
+/*}*/
+
+/*.maldives-table th {*/
+/*    color: #081C15;*/
+/*}*/
+
+/*.maldives-table img {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.maldives-table-div .maldives-table th h2 {*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*}*/
+
+/*.maldives-table td:hover, th:hover, tr:hover {*/
+/*    background-color: darkcyan;*/
+/*}*/
+
+/*div #text {*/
+/*    float: right;*/
+/*    width: 100%;*/
+/*    margin-top: 10px;*/
+/*    position: static;*/
+/*}*/
+
+/*#text ol li {*/
+/*    background-color: cadetblue;*/
+/*    margin: 5px;*/
+/*    height: 40px;*/
+/*    border-radius: 10px;*/
+/*    background-image: linear-gradient(cadetblue, darkcyan);*/
+/*}*/
+
+/*#text ol a {*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*#text ol li a:hover, #text ol li:hover {*/
+/*    font-size: 20px;*/
+/*    color: aqua;*/
+/*    background-image: linear-gradient(to right, cadetblue, darkcyan);*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*.maldives-explore h4 {*/
+/*    color: #081C15;*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*    clear: both;*/
+/*}*/
+
+/*.maldives-explore h6 {*/
+/*    color: #081C15;*/
+/*    text-align: center;*/
+/*    font-size: 20px;*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*    clear: both;*/
+/*}*/
+
+/*.maldives-explore img {*/
+/*    width: 400px;*/
+/*    float: right;*/
+/*    margin: 10px;*/
+/*    border-radius: 50px;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*}*/
+
+/*.maldives-explore img:hover {*/
+/*    width: 400px;*/
+/*    float: right;*/
+/*    margin: 10px;*/
+/*    transform: scale(1.1);*/
+/*    transition: .5s;*/
+/*    border-radius: 50px;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*}*/
+
+/*.maldives-explore p {*/
+/*    clear: both;*/
+/*}*/
+
+/*.maldives-explore h5 {*/
+/*    color: #081C15;*/
+/*    text-align: center;*/
+/*    font-size: 25px;*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*    clear: both;*/
+/*}*/
+
+/*.maldives-explore ul li {*/
+/*    list-style-type: square;*/
+/*}*/
+
+/*.maldives-climate-table {*/
+/*    width: 100%;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
+/*}*/
+
+/*.maldives-climate-table td, .maldives-climate-table th {*/
+/*    border: solid 3px transparent;*/
+/*    padding: 2px;*/
+/*}*/
+
+/*.maldives-climate-table td {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.maldives-climate-table th {*/
+/*    background-image: linear-gradient(gray, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.first-row td {*/
+/*    background-image: linear-gradient(orangered, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.second-row td {*/
+/*    background-image: linear-gradient(orangered, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.third-row td {*/
+/*    background-image: linear-gradient(#f85d1e, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.fourth-row td {*/
+/*    background-image: linear-gradient(seagreen, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.fifth-row td {*/
+/*    background-image: linear-gradient(cornflowerblue, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.sixth-row td {*/
+/*    background-image: linear-gradient(#b7b70d, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.maldives-explore span{*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.maldives-demographics-table{*/
+/*    text-align: left;*/
+/*    border-collapse: collapse;*/
+/*    margin: 5px;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*    width: 100%;*/
+/*}*/
+
+/*.flex-container-2{*/
+/*    display: flex;*/
+/*    width: 90%;*/
+/*}*/
+
+/*.flex-container-2-lists{*/
+/*    width: 50%;*/
+/*}*/
+
+/*.flex-container-2-table{*/
+/*    width: 50%;*/
+/*}*/
+
+
+/*.maldives-demographics-table th,.maldives-demographics-table td{*/
+/*    padding: 10px;*/
+/*    border: 1px black solid;*/
+/*}*/
+
+/*.maldives-demographics-table th{*/
+/*    background-color: cadetblue;*/
+/*    color: #081C15;*/
+/*}*/
+
+/*.maldives-demographics-table-2{*/
+/*    border-collapse: collapse;*/
+/*    margin: 20px;*/
+/*    width: 90%;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*}*/
+
+/*.maldives-demographics-table-2 th{*/
+/*    color: #081C15;*/
+/*}*/
+
+/*.maldives-demographics-table-2 td, .maldives-demographics-table-2 th{*/
+/*    padding: 20px 50px;*/
+/*    margin: 30px;*/
+/*    width: 100px;*/
+/*}*/
+
+/*.maldives-demographics-table-2 tr:nth-child(even) {*/
+/*    background-color: cadetblue;*/
+/*}*/
+
+/*.maldives-demographics-table-2 tr:hover{*/
+/*    transform: scale(1.1);*/
+/*}*/
+
+/*.maldives-demographics-table-2 caption{*/
+/*    font-size: 20px;*/
+/*    margin: 10px;*/
+/*}*/
+
+
+/*/*sign up css*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.formcontainer {
+    text-align: center;
+    margin: 24px 50px 12px;
+}
+
+.formcontainer img{
+    width: 20%;
+    padding: 25px;
+}
+
+/*register css*/
+.login-block{
+    width: 360px;
+    margin: auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auot 100px;
+    padding: 45px;
+    text-align: center;
+    color: white;
+
+}
+.form img{
+    width: 50%;
+    padding: 25px;
+}
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: aliceblue;
+    border:0;
+    padding: 15px;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.form button:hover,.form button:active{
+    background: red;
+    color: #f2f2f2;
+
+}
+.form.message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+.form .message a{
+    color: red;
+    text-decoration: none;
+
+}
+.form .register-form{
+    display: none;
+}
+
+.login-form #email_error, .login-form #pass_error{
+    margin: 10px;
+    width: 250px;
+    font-size: 18px;
+    columns: #c62828;
+    background: rgba(266, 0, 0, 0.1);
+    text-align: center;
+    padding: 4px 4px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display:none;
+}
