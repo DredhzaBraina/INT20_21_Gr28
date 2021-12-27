@@ -88,51 +88,7 @@ header a:hover, a:visited {
     border: 0;
     cursor: pointer;
 }
-
-#showcase {
-    min-height: 600px;
-    background: url('./images/ishull.jpg') no-repeat center fixed;
-    text-align: center;
-    background-size: cover;
-    border-bottom: aqua 3px solid;
-    background-origin: border-box ;
-}
-
-#showcase h1 {
-    margin-top: 300px;
-    font-size: 55px;
-    margin-bottom: 10px;
-}
-
-#showcase p {
-    font-size: 20px;
-}
-
-/* Boxes */
-#boxes {
-    min-height: 300px;
-    margin-top: 20px;
-}
-
-#boxes .box {
-    float: left;
-    text-align: center;
-    width: 30%;
-    padding: 10px;
-
-}
-
-#boxes .box img {
-    width: 100px;
-    height: 100px;
-}
-
-.container h1 {
-    text-align: center;
-    font-family: 'ZCOOL KuaiLe', cursive;
-}
-
-/* footer */
+/*!* footer *!*/
 
 footer {
     padding: 20px;
@@ -160,571 +116,571 @@ footer {
 }
 
 
-/*about css*/
+/*!*about css*!*/
 
-.importantinfo {
-    padding: 15px;
-    background: cadetblue;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    outline: 2px solid aqua ;
-}
+/*.importantinfo {*/
+/*    padding: 15px;*/
+/*    background: cadetblue;*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    outline: 2px solid aqua ;*/
+/*}*/
 
-aside#sidebar {
-    float: right;
-    width: 30%;
-    margin-top: 10px;
-}
+/*aside#sidebar {*/
+/*    float: right;*/
+/*    width: 30%;*/
+/*    margin-top: 10px;*/
+/*}*/
 
-aside#sidebar .quote input, aside#sidebar .quote textarea {
-    width: 90%;
-    padding: 5px;
-}
+/*aside#sidebar .quote input, aside#sidebar .quote textarea {*/
+/*    width: 90%;*/
+/*    padding: 5px;*/
+/*}*/
 
-article#main-col{
-    float:left;
-    width:65%;
-}
+/*article#main-col{*/
+/*    float:left;*/
+/*    width:65%;*/
+/*}*/
 
-#borderpng{
-    border: 20px solid transparent;
-    border-image: url("images/beach-29046.png") ;
-}
+/*#borderpng{*/
+/*    border: 20px solid transparent;*/
+/*    border-image: url("images/beach-29046.png") ;*/
+/*}*/
 
- /*Slideshow css*/
+/* !*Slideshow css*!*/
 
-#slideTitle{
-    text-align: center;
-    animation: animate .5s infinite;
-    color:lightgray;
-    font-family: 'ZCOOL KuaiLe', cursive;
-}
+/*#slideTitle{*/
+/*    text-align: center;*/
+/*    animation: animate .5s infinite;*/
+/*    color:lightgray;*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*}*/
 
-@keyframes animate{
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(-20px);
-    }
-    100%{
-        transfrom: translateY(0px);
-    }
-}
+/*@keyframes animate{*/
+/*    0%{*/
+/*        transform: translateY(0px);*/
+/*    }*/
+/*    50%{*/
+/*        transform: translateY(-20px);*/
+/*    }*/
+/*    100%{*/
+/*        transfrom: translateY(0px);*/
+/*    }*/
+/*}*/
 
-.slides{
-    overflow: hidden;
-    display: flex;
-    text-align: center;
-}
+/*.slides{*/
+/*    overflow: hidden;*/
+/*    display: flex;*/
+/*    text-align: center;*/
+/*}*/
 
-.navigation{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-}
-.bar{
-    width: 50px;
-    height: 10px;
-    border: 2px solid #fff;
-    margin: 6px;
-    cursor: pointer;
-    transition: 0.4s;
-}
-.bar:hover{
-    background: #fff;
-}
+/*.navigation{*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%);*/
+/*    display: flex;*/
+/*}*/
+/*.bar{*/
+/*    width: 50px;*/
+/*    height: 10px;*/
+/*    border: 2px solid #fff;*/
+/*    margin: 6px;*/
+/*    cursor: pointer;*/
+/*    transition: 0.4s;*/
+/*}*/
+/*.bar:hover{*/
+/*    background: #fff;*/
+/*}*/
 
-input[name="r"]{
-    position: absolute;
-    visibility: hidden;
-}
+/*input[name="r"]{*/
+/*    position: absolute;*/
+/*    visibility: hidden;*/
+/*}*/
 
-.slides{
-    width: 500%;
-    height: 100%;
-    display: flex;
-}
+/*.slides{*/
+/*    width: 500%;*/
+/*    height: 100%;*/
+/*    display: flex;*/
+/*}*/
 
-.slide{
-    width: 20%;
-    transition: 0.6s;
-}
-.slide img{
-    width: 70%;
-    height: 600px;
-}
+/*.slide{*/
+/*    width: 20%;*/
+/*    transition: 0.6s;*/
+/*}*/
+/*.slide img{*/
+/*    width: 70%;*/
+/*    height: 600px;*/
+/*}*/
 
-#r1:checked ~ .s1{
-    margin-left: 0;
-}
-#r2:checked ~ .s1{
-    margin-left: -20%;
-}
-#r3:checked ~ .s1{
-    margin-left: -40%;
-}
-#r4:checked ~ .s1{
-    margin-left: -60%;
-}
-#r5:checked ~ .s1{
-    margin-left: -80%;
-}
+/*#r1:checked ~ .s1{*/
+/*    margin-left: 0;*/
+/*}*/
+/*#r2:checked ~ .s1{*/
+/*    margin-left: -20%;*/
+/*}*/
+/*#r3:checked ~ .s1{*/
+/*    margin-left: -40%;*/
+/*}*/
+/*#r4:checked ~ .s1{*/
+/*    margin-left: -60%;*/
+/*}*/
+/*#r5:checked ~ .s1{*/
+/*    margin-left: -80%;*/
+/*}*/
 
 /*roster css*/
 
 
-#newsletter {
-    padding: 15px;
-    color: #ffffff;
-    background: cadetblue;
-}
-
-#newsletter h1 {
-    float: left;
-}
-
-#newsletter form {
-    float: right;
-    margin-top: 15px;
-}
-
-#newsletter input[type="email"] {
-    padding: 4px;
-    height: 25px;
-    width: 250px;
-}
-
-.rosterphoto {
-    min-height: 500px;
-    display: flex;
-    margin: 70px auto 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.rosterphoto .infobox {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    box-sizing: border-box;
-    display: inline-block;
-}
-
-.rosterphoto .infobox .img-infobox {
-    position: relative;
-    overflow: hidden;
-}
-
-.rosterphoto .infobox .img-infobox img {
-    max-width: 100%;
-    transition: transform 1s;
-    opacity: 1;
-    border-radius: 50px;
-}
-
-.rosterphoto .infobox:hover .img-infobox img {
-    transform: scale(1.2);
-    opacity: 0.5;
-}
-
-.rosterphoto .infobox .textt {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    bottom: 10px;
-    right: 10px;
-    transform: scale(0);
-    transition: transform .5s;
-}
-
-.rosterphoto .infobox:hover .textt {
-    transform: scale(1);
-}
-
-.rosterphoto .infobox .textt .content {
-
-    top: 20%;
-    text-align: center;
-    padding: 15px;;
-    color: white;
-}
-
-.rosterphoto p {
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-
-#boxes {
-    min-height: 300px;
-    margin-top: 20px;
-
-}
-
-.rosterphoto {
-    min-height: 500px;
-    display: flex;
-    margin: 70px auto 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.rosterphoto .infobox {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    box-sizing: border-box;
-    display: inline-block;
-}
-
-.rosterphoto .infobox .img-infobox {
-    position: relative;
-    overflow: hidden;
-}
-
-.rosterphoto .infobox .img-infobox img {
-    max-width: 100%;
-    transition: transform 1s;
-    opacity: 1;
-    border-radius: 50px;
-}
-
-.rosterphoto .infobox:hover .img-infobox img {
-    transform: scale(1.2);
-    opacity: 0.5;
-}
-
-.rosterphoto .infobox .textt {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    bottom: 10px;
-    right: 10px;
-    transform: scale(0);
-    transition: transform .5s;
-}
-
-.rosterphoto .infobox:hover .textt {
-    transform: scale(1);
-}
-
-.rosterphoto .infobox .textt .content {
-
-    top: 20%;
-    text-align: center;
-    padding: 15px;;
-    color: white;
-}
-
-.rosterphoto p {
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.explore a {
-    text-decoration: none;
-}
-
-.explore {
-    background-color: darkcyan;
-    border: white solid 1px;
-    width: 80px;
-    height: 30px;
-    border-radius: 50px;
-}
-
-.explore:hover {
-    background-color: rgba(0, 139, 139, 0.5);
-    transition: 0.5s;
-}
-
-/*Maldives Css*/
-
-#maldives-background {
-    background-image: linear-gradient(rgba(0, 139, 139, 0.00), rgba(0, 139, 139, 0.20), rgba(0, 139, 139, 1)), url("images/maldives-background.jpg");
-    background-origin: border-box ;
-    background-attachment: fixed;
-    min-height: 650px;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.background-image-text {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-}
-
-.background-image-text h1 {
-    font-size: 60px;
-    font-family: 'ZCOOL KuaiLe', cursive;
-    color: darkcyan;
-    text-shadow: 2px 2px 2px black;
-}
-
-.background-image-text p {
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: left;
-    letter-spacing: 5px;
-    text-shadow: 2px 2px 2px black;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.flex-container .maldives-text {
-    width: 75%;
-    margin-left: 25px;
-    text-align: left;
-    line-height: 25px;
-    margin-right: 25px;
-}
-
-.flex-container .maldives-table-div {
-    width: 400px;
-    margin-right: 10px;
-}
-
-
-.flex-container .maldives-table-div .maldives-table {
-    width: 100%;
-    margin: 10px;
-    text-align: center;
-}
-
-
-.maldives-table {
-    border-collapse: collapse;
-    background-color: cadetblue;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.maldives-table td, th {
-    border-bottom: solid 5px transparent;
-    text-align: left;
-    margin: 10px;
-    padding: 12px;
-}
-
-.maldives-table th {
-    color: #081C15;
-}
-
-.maldives-table img {
-    width: 100%;
-}
-
-.maldives-table-div .maldives-table th h2 {
-    font-family: 'ZCOOL KuaiLe', cursive;
-}
-
-.maldives-table td:hover, th:hover, tr:hover {
-    background-color: darkcyan;
-}
-
-div #text {
-    float: right;
-    width: 100%;
-    margin-top: 10px;
-    position: static;
-}
-
-#text ol li {
-    background-color: cadetblue;
-    margin: 5px;
-    height: 40px;
-    border-radius: 10px;
-    background-image: linear-gradient(cadetblue, darkcyan);
-}
-
-#text ol a {
-    text-decoration: none;
-}
-
-#text ol li a:hover, #text ol li:hover {
-    font-size: 20px;
-    color: aqua;
-    background-image: linear-gradient(to right, cadetblue, darkcyan);
-    text-transform: uppercase;
-}
-
-.maldives-explore h4 {
-    color: #081C15;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'ZCOOL KuaiLe', cursive;
-    clear: both;
-}
-
-.maldives-explore h6 {
-    color: #081C15;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'ZCOOL KuaiLe', cursive;
-    clear: both;
-}
-
-.maldives-explore img {
-    width: 400px;
-    float: right;
-    margin: 10px;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.maldives-explore img:hover {
-    width: 400px;
-    float: right;
-    margin: 10px;
-    transform: scale(1.1);
-    transition: .5s;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.maldives-explore p {
-    clear: both;
-}
-
-.maldives-explore h5 {
-    color: #081C15;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'ZCOOL KuaiLe', cursive;
-    clear: both;
-}
-
-.maldives-explore ul li {
-    list-style-type: square;
-}
-
-.maldives-climate-table {
-    width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-.maldives-climate-table td, .maldives-climate-table th {
-    border: solid 3px transparent;
-    padding: 2px;
-}
-
-.maldives-climate-table td {
-    text-align: center;
-}
-
-.maldives-climate-table th {
-    background-image: linear-gradient(gray, rgba(0, 0, 0, 0.3));
-}
-
-.first-row td {
-    background-image: linear-gradient(orangered, rgba(0, 0, 0, 0.3));
-}
-
-.second-row td {
-    background-image: linear-gradient(orangered, rgba(0, 0, 0, 0.3));
-}
-
-.third-row td {
-    background-image: linear-gradient(#f85d1e, rgba(0, 0, 0, 0.3));
-}
-
-.fourth-row td {
-    background-image: linear-gradient(seagreen, rgba(0, 0, 0, 0.3));
-}
-
-.fifth-row td {
-    background-image: linear-gradient(cornflowerblue, rgba(0, 0, 0, 0.3));
-}
-
-.sixth-row td {
-    background-image: linear-gradient(#b7b70d, rgba(0, 0, 0, 0.3));
-}
-
-.maldives-explore span{
-    font-weight: bold;
-}
-
-.maldives-demographics-table{
-    text-align: left;
-    border-collapse: collapse;
-    margin: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 100%;
-}
-
-.flex-container-2{
-    display: flex;
-    width: 90%;
-}
-
-.flex-container-2-lists{
-    width: 50%;
-}
-
-.flex-container-2-table{
-    width: 50%;
-}
-
-
-.maldives-demographics-table th,.maldives-demographics-table td{
-    padding: 10px;
-    border: 1px black solid;
-}
-
-.maldives-demographics-table th{
-    background-color: cadetblue;
-    color: #081C15;
-}
-
-.maldives-demographics-table-2{
-    border-collapse: collapse;
-    margin: 20px;
-    width: 90%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.maldives-demographics-table-2 th{
-    color: #081C15;
-}
-
-.maldives-demographics-table-2 td, .maldives-demographics-table-2 th{
-    padding: 20px 50px;
-    margin: 30px;
-    width: 100px;
-}
-
-.maldives-demographics-table-2 tr:nth-child(even) {
-    background-color: cadetblue;
-}
-
-.maldives-demographics-table-2 tr:hover{
-    transform: scale(1.1);
-}
-
-.maldives-demographics-table-2 caption{
-    font-size: 20px;
-    margin: 10px;
-}
-
-
-/*sign up css*/
+/*#newsletter {*/
+/*    padding: 15px;*/
+/*    color: #ffffff;*/
+/*    background: cadetblue;*/
+/*}*/
+
+/*#newsletter h1 {*/
+/*    float: left;*/
+/*}*/
+
+/*#newsletter form {*/
+/*    float: right;*/
+/*    margin-top: 15px;*/
+/*}*/
+
+/*#newsletter input[type="email"] {*/
+/*    padding: 4px;*/
+/*    height: 25px;*/
+/*    width: 250px;*/
+/*}*/
+
+/*.rosterphoto {*/
+/*    min-height: 500px;*/
+/*    display: flex;*/
+/*    margin: 70px auto 0;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.rosterphoto .infobox {*/
+/*    position: relative;*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    margin: 10px;*/
+/*    box-sizing: border-box;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.rosterphoto .infobox .img-infobox {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.rosterphoto .infobox .img-infobox img {*/
+/*    max-width: 100%;*/
+/*    transition: transform 1s;*/
+/*    opacity: 1;*/
+/*    border-radius: 50px;*/
+/*}*/
+
+/*.rosterphoto .infobox:hover .img-infobox img {*/
+/*    transform: scale(1.2);*/
+/*    opacity: 0.5;*/
+/*}*/
+
+/*.rosterphoto .infobox .textt {*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    left: 10px;*/
+/*    bottom: 10px;*/
+/*    right: 10px;*/
+/*    transform: scale(0);*/
+/*    transition: transform .5s;*/
+/*}*/
+
+/*.rosterphoto .infobox:hover .textt {*/
+/*    transform: scale(1);*/
+/*}*/
+
+/*.rosterphoto .infobox .textt .content {*/
+
+/*    top: 20%;*/
+/*    text-align: center;*/
+/*    padding: 15px;;*/
+/*    color: white;*/
+/*}*/
+
+/*.rosterphoto p {*/
+/*    text-transform: uppercase;*/
+/*    font-size: 15px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+
+/*#boxes {*/
+/*    min-height: 300px;*/
+/*    margin-top: 20px;*/
+
+/*}*/
+
+/*.rosterphoto {*/
+/*    min-height: 500px;*/
+/*    display: flex;*/
+/*    margin: 70px auto 0;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.rosterphoto .infobox {*/
+/*    position: relative;*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    margin: 10px;*/
+/*    box-sizing: border-box;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.rosterphoto .infobox .img-infobox {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.rosterphoto .infobox .img-infobox img {*/
+/*    max-width: 100%;*/
+/*    transition: transform 1s;*/
+/*    opacity: 1;*/
+/*    border-radius: 50px;*/
+/*}*/
+
+/*.rosterphoto .infobox:hover .img-infobox img {*/
+/*    transform: scale(1.2);*/
+/*    opacity: 0.5;*/
+/*}*/
+
+/*.rosterphoto .infobox .textt {*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    left: 10px;*/
+/*    bottom: 10px;*/
+/*    right: 10px;*/
+/*    transform: scale(0);*/
+/*    transition: transform .5s;*/
+/*}*/
+
+/*.rosterphoto .infobox:hover .textt {*/
+/*    transform: scale(1);*/
+/*}*/
+
+/*.rosterphoto .infobox .textt .content {*/
+
+/*    top: 20%;*/
+/*    text-align: center;*/
+/*    padding: 15px;;*/
+/*    color: white;*/
+/*}*/
+
+/*.rosterphoto p {*/
+/*    text-transform: uppercase;*/
+/*    font-size: 15px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.explore a {*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.explore {*/
+/*    background-color: darkcyan;*/
+/*    border: white solid 1px;*/
+/*    width: 80px;*/
+/*    height: 30px;*/
+/*    border-radius: 50px;*/
+/*}*/
+
+/*.explore:hover {*/
+/*    background-color: rgba(0, 139, 139, 0.5);*/
+/*    transition: 0.5s;*/
+/*}*/
+
+/*!*Maldives Css*!*/
+
+/*#maldives-background {*/
+/*    background-image: linear-gradient(rgba(0, 139, 139, 0.00), rgba(0, 139, 139, 0.20), rgba(0, 139, 139, 1)), url("images/maldives-background.jpg");*/
+/*    background-origin: border-box ;*/
+/*    background-attachment: fixed;*/
+/*    min-height: 650px;*/
+/*    text-align: center;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    position: relative;*/
+/*}*/
+
+/*.background-image-text {*/
+/*    position: absolute;*/
+/*    top: 30%;*/
+/*    left: 10%;*/
+/*}*/
+
+/*.background-image-text h1 {*/
+/*    font-size: 60px;*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*    color: darkcyan;*/
+/*    text-shadow: 2px 2px 2px black;*/
+/*}*/
+
+/*.background-image-text p {*/
+/*    font-size: 30px;*/
+/*    text-transform: uppercase;*/
+/*    text-align: left;*/
+/*    letter-spacing: 5px;*/
+/*    text-shadow: 2px 2px 2px black;*/
+/*}*/
+
+/*.flex-container {*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*    width: 100%;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.flex-container .maldives-text {*/
+/*    width: 75%;*/
+/*    margin-left: 25px;*/
+/*    text-align: left;*/
+/*    line-height: 25px;*/
+/*    margin-right: 25px;*/
+/*}*/
+
+/*.flex-container .maldives-table-div {*/
+/*    width: 400px;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+
+/*.flex-container .maldives-table-div .maldives-table {*/
+/*    width: 100%;*/
+/*    margin: 10px;*/
+/*    text-align: center;*/
+/*}*/
+
+
+/*.maldives-table {*/
+/*    border-collapse: collapse;*/
+/*    background-color: cadetblue;*/
+/*    border-radius: 50px;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*}*/
+
+/*.maldives-table td, th {*/
+/*    border-bottom: solid 5px transparent;*/
+/*    text-align: left;*/
+/*    margin: 10px;*/
+/*    padding: 12px;*/
+/*}*/
+
+/*.maldives-table th {*/
+/*    color: #081C15;*/
+/*}*/
+
+/*.maldives-table img {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.maldives-table-div .maldives-table th h2 {*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*}*/
+
+/*.maldives-table td:hover, th:hover, tr:hover {*/
+/*    background-color: darkcyan;*/
+/*}*/
+
+/*div #text {*/
+/*    float: right;*/
+/*    width: 100%;*/
+/*    margin-top: 10px;*/
+/*    position: static;*/
+/*}*/
+
+/*#text ol li {*/
+/*    background-color: cadetblue;*/
+/*    margin: 5px;*/
+/*    height: 40px;*/
+/*    border-radius: 10px;*/
+/*    background-image: linear-gradient(cadetblue, darkcyan);*/
+/*}*/
+
+/*#text ol a {*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*#text ol li a:hover, #text ol li:hover {*/
+/*    font-size: 20px;*/
+/*    color: aqua;*/
+/*    background-image: linear-gradient(to right, cadetblue, darkcyan);*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*.maldives-explore h4 {*/
+/*    color: #081C15;*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*    clear: both;*/
+/*}*/
+
+/*.maldives-explore h6 {*/
+/*    color: #081C15;*/
+/*    text-align: center;*/
+/*    font-size: 20px;*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*    clear: both;*/
+/*}*/
+
+/*.maldives-explore img {*/
+/*    width: 400px;*/
+/*    float: right;*/
+/*    margin: 10px;*/
+/*    border-radius: 50px;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*}*/
+
+/*.maldives-explore img:hover {*/
+/*    width: 400px;*/
+/*    float: right;*/
+/*    margin: 10px;*/
+/*    transform: scale(1.1);*/
+/*    transition: .5s;*/
+/*    border-radius: 50px;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*}*/
+
+/*.maldives-explore p {*/
+/*    clear: both;*/
+/*}*/
+
+/*.maldives-explore h5 {*/
+/*    color: #081C15;*/
+/*    text-align: center;*/
+/*    font-size: 25px;*/
+/*    font-family: 'ZCOOL KuaiLe', cursive;*/
+/*    clear: both;*/
+/*}*/
+
+/*.maldives-explore ul li {*/
+/*    list-style-type: square;*/
+/*}*/
+
+/*.maldives-climate-table {*/
+/*    width: 100%;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
+/*}*/
+
+/*.maldives-climate-table td, .maldives-climate-table th {*/
+/*    border: solid 3px transparent;*/
+/*    padding: 2px;*/
+/*}*/
+
+/*.maldives-climate-table td {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.maldives-climate-table th {*/
+/*    background-image: linear-gradient(gray, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.first-row td {*/
+/*    background-image: linear-gradient(orangered, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.second-row td {*/
+/*    background-image: linear-gradient(orangered, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.third-row td {*/
+/*    background-image: linear-gradient(#f85d1e, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.fourth-row td {*/
+/*    background-image: linear-gradient(seagreen, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.fifth-row td {*/
+/*    background-image: linear-gradient(cornflowerblue, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.sixth-row td {*/
+/*    background-image: linear-gradient(#b7b70d, rgba(0, 0, 0, 0.3));*/
+/*}*/
+
+/*.maldives-explore span{*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.maldives-demographics-table{*/
+/*    text-align: left;*/
+/*    border-collapse: collapse;*/
+/*    margin: 5px;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*    width: 100%;*/
+/*}*/
+
+/*.flex-container-2{*/
+/*    display: flex;*/
+/*    width: 90%;*/
+/*}*/
+
+/*.flex-container-2-lists{*/
+/*    width: 50%;*/
+/*}*/
+
+/*.flex-container-2-table{*/
+/*    width: 50%;*/
+/*}*/
+
+
+/*.maldives-demographics-table th,.maldives-demographics-table td{*/
+/*    padding: 10px;*/
+/*    border: 1px black solid;*/
+/*}*/
+
+/*.maldives-demographics-table th{*/
+/*    background-color: cadetblue;*/
+/*    color: #081C15;*/
+/*}*/
+
+/*.maldives-demographics-table-2{*/
+/*    border-collapse: collapse;*/
+/*    margin: 20px;*/
+/*    width: 90%;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*}*/
+
+/*.maldives-demographics-table-2 th{*/
+/*    color: #081C15;*/
+/*}*/
+
+/*.maldives-demographics-table-2 td, .maldives-demographics-table-2 th{*/
+/*    padding: 20px 50px;*/
+/*    margin: 30px;*/
+/*    width: 100px;*/
+/*}*/
+
+/*.maldives-demographics-table-2 tr:nth-child(even) {*/
+/*    background-color: cadetblue;*/
+/*}*/
+
+/*.maldives-demographics-table-2 tr:hover{*/
+/*    transform: scale(1.1);*/
+/*}*/
+
+/*.maldives-demographics-table-2 caption{*/
+/*    font-size: 20px;*/
+/*    margin: 10px;*/
+/*}*/
+
+
+/*/*sign up css*/
 input[type=text], input[type=password] {
     width: 100%;
     padding: 16px 8px;

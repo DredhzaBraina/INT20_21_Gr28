@@ -1,0 +1,177 @@
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: cadetblue;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.rosterphoto {
+    min-height: 500px;
+    display: flex;
+    margin: 70px auto 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rosterphoto .infobox {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.rosterphoto .infobox .img-infobox {
+    position: relative;
+    overflow: hidden;
+}
+
+.rosterphoto .infobox .img-infobox img {
+    max-width: 100%;
+    transition: transform 1s;
+    opacity: 1;
+    border-radius: 50px;
+}
+
+.rosterphoto .infobox:hover .img-infobox img {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.rosterphoto .infobox .textt {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    transform: scale(0);
+    transition: transform .5s;
+}
+
+.rosterphoto .infobox:hover .textt {
+    transform: scale(1);
+}
+
+.rosterphoto .infobox .textt .content {
+
+    top: 20%;
+    text-align: center;
+    padding: 15px;;
+    color: white;
+}
+
+.rosterphoto p {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#boxes {
+    min-height: 300px;
+    margin-top: 20px;
+
+}
+
+.rosterphoto {
+    min-height: 500px;
+    display: flex;
+    margin: 70px auto 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rosterphoto .infobox {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.rosterphoto .infobox .img-infobox {
+    position: relative;
+    overflow: hidden;
+}
+
+.rosterphoto .infobox .img-infobox img {
+    max-width: 100%;
+    transition: transform 1s;
+    opacity: 1;
+    border-radius: 50px;
+}
+
+.rosterphoto .infobox:hover .img-infobox img {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.rosterphoto .infobox .textt {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    transform: scale(0);
+    transition: transform .5s;
+}
+
+.rosterphoto .infobox:hover .textt {
+    transform: scale(1);
+}
+
+.rosterphoto .infobox .textt .content {
+
+    top: 20%;
+    text-align: center;
+    padding: 15px;;
+    color: white;
+}
+
+.rosterphoto p {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.explore a {
+    text-decoration: none;
+}
+
+.explore {
+    background-color: darkcyan;
+    border: white solid 1px;
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.explore:hover {
+    background-color: rgba(0, 139, 139, 0.5);
+    transition: 0.5s;
+}
