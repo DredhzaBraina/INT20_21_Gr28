@@ -70,3 +70,15 @@
     border: 1px solid white;
     margin: 5px;
 }
+
+/*event*/
+#time{
+    color: white;
+    background-color: cadetblue;
+    justify-content: center;
+    border-color:cadetblue;
+    align-items: center;
+    width: 100%;
+    padding: 7px;
+    border-radius:20px;
+}
