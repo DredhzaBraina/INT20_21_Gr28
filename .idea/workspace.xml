@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d5dfad-2625-473c-ad7a-e499a1c541b7" name="Changes" comment="d">
+    <list default="true" id="26d5dfad-2625-473c-ad7a-e499a1c541b7" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maldives.html" beforeDir="false" afterPath="$PROJECT_DIR$/maldives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maldives.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/maldives.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +17,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="temp" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -48,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,9 +64,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\WebStormProjects\INT20_21_Gr28\images" />
       <recent name="C:\Users\DELL\WebstormProjects\INT20_21_Gr28\fonts" />
       <recent name="C:\Users\DELL\WebstormProjects\INT20_21_Gr28" />
-      <recent name="C:\Users\Lenovo\Desktop\WebStormProjects\INT20_21_Gr28\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\WebstormProjects\INT20_21_Gr28\images" />
@@ -113,7 +119,9 @@
       <workItem from="1640621844316" duration="154000" />
       <workItem from="1640622025440" duration="278000" />
       <workItem from="1640622330425" duration="10432000" />
-      <workItem from="1640706814327" duration="5543000" />
+      <workItem from="1640683356165" duration="2032000" />
+      <workItem from="1640718731098" duration="17000" />
+      <workItem from="1640725007882" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1637692861393</created>
@@ -339,35 +347,42 @@
       <option name="project" value="LOCAL" />
       <updated>1640632188263</updated>
     </task>
-    <task id="LOCAL-00033" summary="d">
-      <created>1640701990345</created>
+    <task id="LOCAL-00033" summary="a">
+      <created>1640683876016</created>
       <option name="number" value="00033" />
       <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1640701990345</updated>
+      <updated>1640683876016</updated>
     </task>
-    <task id="LOCAL-00034" summary="d">
-      <created>1640702278656</created>
+    <task id="LOCAL-00034" summary="a">
+      <created>1640683913986</created>
       <option name="number" value="00034" />
       <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1640702278656</updated>
+      <updated>1640683913986</updated>
     </task>
-    <task id="LOCAL-00035" summary="d">
-      <created>1640709893531</created>
+    <task id="LOCAL-00035" summary="a">
+      <created>1640683948887</created>
       <option name="number" value="00035" />
       <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1640709893531</updated>
+      <updated>1640683948887</updated>
     </task>
-    <task id="LOCAL-00036" summary="d">
-      <created>1640712699351</created>
+    <task id="LOCAL-00036" summary="a">
+      <created>1640683977913</created>
       <option name="number" value="00036" />
       <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1640712699351</updated>
+      <updated>1640683977913</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="a">
+      <created>1640684351546</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1640684351546</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,8 +401,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="a" />
     <MESSAGE value="d" />
-    <option name="LAST_COMMIT_MESSAGE" value="d" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>
