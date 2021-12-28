@@ -75,10 +75,11 @@
 #time{
     color: white;
     background-color: cadetblue;
-    justify-content: center;
     border-color:cadetblue;
-    align-items: center;
-    width: 100%;
+    width: 95%;
     padding: 7px;
     border-radius:20px;
+    outline-offset: 5px;
+    outline: 2px dashed white;
+    margin: 10px;
 }
