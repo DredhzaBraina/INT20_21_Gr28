@@ -83,3 +83,7 @@
     outline: 2px dashed white;
     margin: 10px;
 }
+#time:hover{
+    transform: rotateY(30deg);
+    transition: 1s;
+}
