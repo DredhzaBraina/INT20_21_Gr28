@@ -138,6 +138,30 @@
                 <td style="border-bottom: none">+960</td>
             </tr>
         </table>
+
+<!-- konvertusi-->
+
+        <section class="container">
+            <div class="flex-container">
+                <div class="amount-converter">
+                    <h1 id="convert">Convert Euro to Maldivian Rufiyaa</h1>
+                    <p>
+                        <label>Euro(€):</label>
+                        <input type="number" id="euro" placeholder="Type amount to convert" oninput="converter(this.value)" onchange="converter(this.value)">
+                    </p>
+                    <p>Maldivian Rufiyaa(.ރ): <span id="rufiyaa"></span></p>
+                </div>
+            </div>
+        </section>
+        <!--Convert Euro to Maldivian Rufiyaa javascript-->
+        <script>
+            function converter(valNum){
+                document.getElementById("rufiyaa").innerHTML= valNum * 17.52;
+            }
+        </script>
+
+<!--        perfundimi i konvertuesit-->
+
     </div>
 
     <div class=" maldives-text">
