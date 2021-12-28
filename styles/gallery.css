@@ -78,3 +78,7 @@ input[name="r"]{
 #r5:checked ~ .s1{
     margin-left: -80%;
 }
+
+audio::-webkit-media-controls-panel {
+    background-color: cadetblue;
+}
