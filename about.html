@@ -2,138 +2,307 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>ISLANDS | About</title>
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/about.css">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="icon" href="./images/beach-29046.png" type="image/png">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
-  </style>
+    <title>ISLANDS | About</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="./images/beach-29046.png" type="image/png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+    </style>
+
+    <!--  Show and hide form-->
+    <script>
+        function Hide() {
+            var x = document.getElementById("hide");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </head>
 
 <body>
 <header>
-  <div class="container">
-    <div id="branding">
-      <img src="./images/beach-29046.png">
-      <h1 style="font-family: Pushster"><abbr title="ISLANDS Organization">ISLANDS</abbr></h1>
+    <div class="container">
+        <div id="branding">
+            <img src="./images/beach-29046.png">
+            <h1 style="font-family: Pushster"><abbr title="ISLANDS Organization">ISLANDS</abbr></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="about.html">About</a></li>
+                <li><a href="roster.html">Explore</a></li>
+                <li><a href="gallery.html" class="current">Gallery</a></li>
+                <button type="button" class="loginBtn"><a href="log-in.html">LOG IN</a></button>
+            </ul>
+        </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li class="current"><a href="about.html">About</a></li>
-        <li><a href="roster.html">Explore</a></li>
-        <li><a href="gallery.html" class="current">Gallery</a></li>
-        <button type="button" class="loginBtn"><a href="log-in.html">LOG IN</a></button>
-      </ul>
-    </nav>
-  </div>
 </header>
 
 
 <div class="container" style="width: 100%">
-  <div class="slideshow-container">
+    <div class="slideshow-container">
 
-    <div class="mySlides fade">
-      <img src="images/Maldives.jpg" style="width:100%">
-      <div class="text">Maldives</div>
-    </div>
+        <div class="mySlides fade">
+            <img src="images/Maldives.jpg" style="width:100%">
+            <div class="text">Maldives</div>
+        </div>
 
-    <div class="mySlides fade">
-      <img src="images/Bora%20Bora.jpg" style="width:100%">
-      <div class="text">Bora Bora</div>
-    </div>
+        <div class="mySlides fade">
+            <img src="images/Bora%20Bora.jpg" style="width:100%">
+            <div class="text">Bora Bora</div>
+        </div>
 
-    <div class="mySlides fade">
-      <img src="images/Palawan.jpg" style="width:100%">
-      <div class="text">Palwan</div>
-    </div>
+        <div class="mySlides fade">
+            <img src="images/Palawan.jpg" style="width:100%">
+            <div class="text">Palwan</div>
+        </div>
 
-    <div class="mySlides fade">
-      <img src="images/Seychelles.jpg" style="width:100%">
-      <div class="text">Seychelles</div>
-    </div>
+        <div class="mySlides fade">
+            <img src="images/Seychelles.jpg" style="width:100%">
+            <div class="text">Seychelles</div>
+        </div>
 
-    <div class="mySlides fade">
-      <img src="images/Santorini.jpg" style="width:100%">
-      <div class="text">Santorini</div>
-    </div>
+        <div class="mySlides fade">
+            <img src="images/Santorini.jpg" style="width:100%">
+            <div class="text">Santorini</div>
+        </div>
 
-    <div class="mySlides fade">
-      <img src="images/The%20Cook%20Islands.jpg" style="width:100%">
-      <div class="text">The Cook Islands</div>
-    </div>
+        <div class="mySlides fade">
+            <img src="images/The%20Cook%20Islands.jpg" style="width:100%">
+            <div class="text">The Cook Islands</div>
+        </div>
 
-    <div class="mySlides fade">
-      <img src="images/Bali,Indonesia.jpg" style="width:100%">
-      <div class="text">Bali</div>
-    </div>
+        <div class="mySlides fade">
+            <img src="images/Bali,Indonesia.jpg" style="width:100%">
+            <div class="text">Bali</div>
+        </div>
 
-    <div class="mySlides fade">
-      <img src="images/The%20Dalmatian%20Islands,Croatia.jpg" style="width:100%">
-      <div class="text">The Dalmatian</div>
+        <div class="mySlides fade">
+            <img src="images/The%20Dalmatian%20Islands,Croatia.jpg" style="width:100%">
+            <div class="text">The Dalmatian</div>
+        </div>
     </div>
-  </div>
 </div>
 <br>
 
 <div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
 </div>
 
 
 <section id="main">
-  <div class="container">
-    <article id="main-col">
-      <h1 class="page-title" id="borderpng" >About Us</h1>
-      <p>
-        ISLANDS is an organization that deals with the publication of some basic information about different islands around the world to inform people with natural beauties.
-      </p>
-      <p class="importantinfo">
-        Since 2010 we accept new people in our organization who bring us new ideas and contribute with their general knowledge of different islands whether in geographical, political or even cultural terms.With some of them we also organize weekly camping to visit an island in order to get to know the place better and the things that identify it.
-        <br>
-        <script type="text/javascript">
-          var num=2;
-          document.write("Number of Founders: " + num.toString());
-        </script>
-      </p>
-    </article>
+    <div class="container">
+        <article id="main-col">
+            <h1 class="page-title" id="borderpng">About Us</h1>
+            <p>
+                ISLANDS is an organization that deals with the publication of some basic information about different
+                islands around the world to inform people with natural beauties.
+            </p>
+            <p class="importantinfo">
+                Since 2010 we accept new people in our organization who bring us new ideas and contribute with their
+                general knowledge of different islands whether in geographical, political or even cultural terms.With
+                some of them we also organize weekly camping to visit an island in order to get to know the place better
+                and the things that identify it.
+                <br>
+                <script type="text/javascript">
+                    var num = 2;
+                    document.write("Number of Founders: " + num.toString());
+                </script>
+            </p>
+        </article>
 
-    <aside id="sidebar">
-      <div class="importantinfo">
-        <h3>What We Do</h3>
-        <p>We try to be in touch with the population for any new information about the newest islands discovered in the world in order to develop tourism there and grow the economy.</p>
-      </div>
-    </aside>
-  </div>
+        <aside id="sidebar">
+            <div class="importantinfo">
+                <h3>What We Do</h3>
+                <p>We try to be in touch with the population for any new information about the newest islands discovered
+                    in the world in order to develop tourism there and grow the economy.</p>
+            </div>
+        </aside>
+    </div>
 </section>
 
 
+<h4 style="font-size: 30px;text-align: center;font-family: 'ZCOOL KuaiLe', cursive">Team</h4>
+<div class="image-container_a">
+    <div class="image_a" onmouseover="fetch_info(0)"><img src="images/bitmoji-a.png"></div>
+    <div class="image_a" onmouseover="fetch_info(1)"><img src="images/bitmoji-d.png"></div>
+</div>
 
+<div class="info-container_a">
+    <img class="profile_a" id="profile_a" src="images/bitmoji1-a.jpg">
+    <div class="info_a">
+        <h1 class="name_a" id="name_a">Aulona Limani</h1>
+        <h3 class="status_a" id="status_a">Founder </h3>
+        <p class="about_a" id="about_a">Prishtin&euml;/Kosov&euml</p>
+    </div>
+</div>
+<script>
+    function fetch_info(i) {
+        let profiles_a = ["images/bitmoji1-a.jpg", "images/bitmoji1-d.jpg"];
+        let name_a = ['Aulona Limani', 'Dredhza Braina'];
+        let status_a = ["Founder ", "Founder "];
+        let about_a = ["Prishtin&euml;/Kosov&euml;", "Prishtin&euml;/Kosov&euml;"];
+
+        document.getElementById("profile_a").src = profiles_a[i];
+        document.getElementById("name_a").innerHTML = name_a[i];
+        document.getElementById("status_a").innerHTML = status_a[i];
+        document.getElementById("about_a").innerHTML = about_a[i];
+    }
+</script>
+
+
+<div class="container">
+    <button onclick="Hide()" class="hideBtn" style="margin-left: 50px">If you want to be in our team, Click here
+    </button>
+</div>
+
+<div id="hide" style="display: none">
+    <div class="container" style="color: #081C15">
+        <form>
+            <svg width="100%" height="100">
+                <rect x="20" y="20" width="100%" height="100%" style="fill:darkcyan">
+                    <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="5s"
+                             repeatCount="indefinite"/>
+                </rect>
+            </svg>
+            <div class="colums">
+                <div class="item">
+                    <label for="name">Name<span>*</span></label>
+                    <input id="name" type="text" name="name" required/>
+                </div>
+                <div class="item">
+                    <label for="eaddress">Email Address<span>*</span></label>
+                    <input id="eaddress" type="email" name="eaddress" required/>
+                </div>
+                <div class="item">
+                    <label for="phone">Phone<span>*</span></label>
+                    <input id="phone" type="tel" name="phone" required/>
+                </div>
+                <div class="item">
+                    <label for="street">Street<span>*</span></label>
+                    <input id="street" type="text" name="street" required/>
+                </div>
+                <div class="item">
+                    <label for="city">City<span>*</span></label>
+                    <input id="city" type="text" name="city" required/>
+                </div>
+                <div class="item">
+                    <label for="state">State<span>*</span></label>
+                    <input id="state" type="text" name="state" required/>
+                </div>
+                <div class="item">
+                    <label for="zip">Zip<span>*</span></label>
+                    <input id="zip" type="text" name="zip" required/>
+                    <p id="p1"></p>
+                </div>
+            </div>
+            <div class="question">
+                <label>Include my contact information on lists distributed to other attendees.</label>
+                <div class="question-answer">
+                    <div>
+                        <input type="radio" value="none" id="radio_1" name="info"/>
+                        <label for="radio_1" class="radio"><span>Yes</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_2" name="info"/>
+                        <label for="radio_2" class="radio"><span>No</span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <label for="favorite">Islands you Like to Visit</label>
+                <input list="favorites" name="favorite" id="favorite">
+                <datalist id="favorites">
+                    <option value="Maldives">Maldives</option>
+                    <option value="Bora Bora">Bora Bora</option>
+                    <option value="Palwan">Palwan</option>
+                    <option value="Seychelles">Seychelles</option>
+                    <option value="Santorini">Santorini</option>
+                    <option value="The Cook Island">The Cook Island</option>
+                    <option value="Bali">Bali</option>
+                    <option value="The Dalmatian">The Dalmatian</option>
+                </datalist>
+            </div>
+            <div class="question">
+                <label>Day Attending </label>
+                <div class="question-answer">
+                    <div>
+                        <input type="radio" value="none" id="radio_3" name="day"/>
+                        <label for="radio_3" class="radio"><span>Sunday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_4" name="day"/>
+                        <label for="radio_4" class="radio"><span>Monday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_5" name="day"/>
+                        <label for="radio_5" class="radio"><span>Tuesday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_6" name="day"/>
+                        <label for="radio_6" class="radio"><span>Wednesday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_7" name="day"/>
+                        <label for="radio_7" class="radio"><span>Thursday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_8" name="day"/>
+                        <label for="radio_8" class="radio"><span>Friday</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_9" name="day"/>
+                        <label for="radio_9" class="radio"><span>Saturday</span></label>
+                    </div>
+
+
+                </div>
+            </div>
+            <canvas id="canvas" width="100" height="100"></canvas>
+            <div class="item">
+                <label for="visit">Special Requirements</label>
+                <textarea id="visit" rows="3"></textarea>
+            </div>
+            <div class="btn-block">
+                <button type="button" class="submit-btn" href="#" onclick="myFunction()">Submit</button>
+            </div>
+            <svg width="200px" height="200">
+                <polygon points="100,10 40,198 190,78 10,78 160,198" style="stroke: aqua; fill: transparent"/>
+            </svg>
+        </form>
+    </div>
+</div>
+
+<script src="javascript/canvas.js"></script>
+<script src="javascript/tryandcatch.js"></script>
 <script src="javascript/slideshow.js"></script>
 
 <footer>
-  <div class="icons">
-    <a href="https://www.facebook.com/Islands/" target="_blank"><i class="fa fa-facebook"></i></a>
-    <a href="https://www.instagram.com/tropicalislandsresort/" target="_blank"><i class="fa fa-instagram"></i></a>
-    <a href="https://twitter.com/achillpage?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.youtube.com/watch?v=4wFO1Qqi3nQ" target="_blank"><i
-            class="fa fa-youtube"></i></a>
+    <div class="icons">
+        <a href="https://www.facebook.com/Islands/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/tropicalislandsresort/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/achillpage?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/watch?v=4wFO1Qqi3nQ" target="_blank"><i
+                class="fa fa-youtube"></i></a>
 
-  </div>
-  <br>
-  <a href = "mailto: island.organization@gmail.com ">Contact us</a>
-  <address>ISLANDS Organization, Copyright &copy; 2021</address>
+    </div>
+    <br>
+    <a href="mailto: island.organization@gmail.com ">Contact us</a>
+    <address>ISLANDS Organization, Copyright &copy; 2021</address>
 </footer>
 </body>
 
