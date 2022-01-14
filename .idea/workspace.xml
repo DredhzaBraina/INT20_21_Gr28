@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26d5dfad-2625-473c-ad7a-e499a1c541b7" name="Changes" comment="d">
-      <change beforePath="$PROJECT_DIR$/maldives.html" beforeDir="false" afterPath="$PROJECT_DIR$/maldives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/maldives.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/maldives.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +121,10 @@
       <workItem from="1640683356165" duration="2032000" />
       <workItem from="1640718731098" duration="17000" />
       <workItem from="1640725007882" duration="307000" />
+      <workItem from="1641390920332" duration="396000" />
+      <workItem from="1641400497197" duration="1474000" />
+      <workItem from="1641896157058" duration="71000" />
+      <workItem from="1642180506946" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1637692861393</created>
