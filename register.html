@@ -41,16 +41,18 @@
                 <img src="./images/beach-29046.png">
                 <form action="log-in.html">
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" required>
+                    <input class="form-input" type="text" id="name" name="name" required>
 
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                    <input class="form-input" type="email" id="email" name="email" required>
 
                     <label for="username">Username</label>
-                    <input type="text" id="username" name="username" required>
+                    <input class="form-input" type="text" id="username" name="username" required>
 
+                    <label id="password_error" style="color: red;display: none;">Password should be 6-20 characters long and contain at least one lowercase
+                        one uppercase and a number!</label>
                     <label for="psw">Password</label>
-                    <input type="password" id="psw" name="psw" pattern="(?=.*\d).{8,}"
+                    <input class="form-input" type="password" id="psw" name="psw"
                            title="Must contain at least one number and at least 8 or more characters" required>
 
                     <input type="submit" value="SIGN UP">
