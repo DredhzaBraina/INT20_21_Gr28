@@ -67,14 +67,6 @@ article#main-col{
     letter-spacing: 10px;
 }
 
-.dot {
-    background-color: transparent;
-}
-
-.active {
-    background-color: transparent;
-}
-
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
