@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/maldives.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="./images/beach-29046.png" type="image/png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
     </style>
@@ -548,9 +549,45 @@
                 </table>
             </div>
         </div>
+        <button class="can">Can we ask you a question,please?</button>
+        <br>
+        <button id="click">Please click here to see it</button>
+        <p id="question">Did all this information about Maldives help you?</p>
+        <button id="yes">Yes</button>
+        <button id="no">No</button>
     </div>
 </div>
 
+<script>
+    $(document).ready(function (){
+        $(".can").hover(function (){
+            $("#click").slideDown();
+            $(this).text("Thank you!")
+        });
+        $("#click").click(function (){
+            $("#question").show();
+            $(".can").hide();
+            $(this).hide();
+            $("#yes").fadeIn("slow");
+            $("#no").fadeIn("slow");
+
+        });
+        $("#no").click(function (){
+            $(this).hide("slow",function () {
+                alert("Thank you for your time! We will try to do our best in another Island's informations!");
+                $("#yes").hide();
+                $("#question").hide();
+            });
+        });
+        $("#yes").click(function (){
+            $(this).hide("slow",function () {
+                alert("Thank you for your time! We are happy to hear that!");
+                $("#no").hide();
+                $("#question").hide();
+            });
+        });
+    });
+</script>
 
 <footer>
     <div class="icons">
