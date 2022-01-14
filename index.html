@@ -82,9 +82,18 @@
 <br>
 <!--event-->
 <div class="container">
-     <button  class="time" onclick="document.getElementById('time1').innerHTML=Date()"><b>Click here to watch the local time in your country,so you can compare it with the island you want to visit.</b></button>
+     <button  class="time" onclick="Time()"><b>Click here to watch the local time in your country,so you can compare it with the island you want to visit.</b></button>
      <p id="time1"></p>
 </div>
+
+<script>
+    function Time(){
+        document.getElementById('time1').innerHTML = new Date();
+        setInterval(Time, 1000);
+    }
+</script>
+
+
 <!--ktu-->
 <div class="container">
     <button  class="time" onclick="getLocation()"><b>Click here to know your geolocation</b></button>
