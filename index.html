@@ -82,10 +82,61 @@
 <br>
 <!--event-->
 <div class="container">
-     <button  id="time" onclick="document.getElementById('time1').innerHTML=Date()"><b>Click here to watch the local time in your country,so you can compare it with the island you want to visit.</b></button>
+     <button  class="time" onclick="document.getElementById('time1').innerHTML=Date()"><b>Click here to watch the local time in your country,so you can compare it with the island you want to visit.</b></button>
      <p id="time1"></p>
 </div>
+<!--ktu-->
+<div class="container">
+    <button  class="time" onclick="getLocation()"><b>Click here to know your geolocation</b></button>
+    <p id="demo"></p>
+</div>
 
+<div class="time">
+    <p><b>Count islands you want to visit in the future: <output id="result"></output></b></p>
+    <button onclick="startWorker()">Start Worker</button>
+    <button onclick="stopWorker()">Stop Worker</button>
+</div>
+
+<script>
+    var x = document.getElementById("demo");
+
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+
+    function showPosition(position) {
+        x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+    }
+</script>
+
+<script>
+    var w;
+
+    function startWorker() {
+        if(typeof(Worker) !== "undefined") {
+            if(typeof(w) == "undefined") {
+                w = new Worker("javascript/webworkers.js");
+            }
+            w.onmessage = function(event) {
+                document.getElementById("result").innerHTML = event.data;
+            };
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+        }
+    }
+
+    function stopWorker() {
+        w.terminate();
+        w = undefined;
+    }
+</script>
+
+<script src="javascript/webworkers.js"></script>
 <script src="javascript/draganddrop.js"></script>
 <footer>
     <div class="icons">
