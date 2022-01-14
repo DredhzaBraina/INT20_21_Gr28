@@ -11,6 +11,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -180,7 +181,49 @@
             </div>
         </div>
     </div>
+<!--ktu1-->
+    <div class="raw">
+        <h1 id="decor">Please rate our work:</h1>
+        <div class="wrapew">
+
+            <div class="block1">
+                <span>Good</span>
+                <input data-index="0" id="good" type="checkbox" />
+                <label for="good"></label>
+            </div>
+            <div class="block1">
+                <span>Not Good</span>
+                <input data-index="1" id="notgood" type="checkbox" />
+                <label for="notgood"></label>
+            </div>
+            <div class="block1">
+                <span>Perfect</span>
+                <input data-index="2" id="perfect" type="checkbox" />
+                <label for="perfect"></label>
+            </div>
+        </div>
+    </div>
 </section>
+
+<script>
+    $('input[type=checkbox]').change(function(){
+        counter = 0;
+        clicked = $(this).data('index');
+        $('input[type=checkbox]').each(function(){
+            if($(this)[0].checked){
+                counter++;
+            }
+        });
+        if(counter==3){
+            toDisable = clicked;
+            while(toDisable==clicked){
+                toDisable=Math.round(Math.random()*2);
+            }
+            $("input:eq("+toDisable+")")[0].checked = false;
+        }
+    });
+</script>
+
 
 
 <footer>
